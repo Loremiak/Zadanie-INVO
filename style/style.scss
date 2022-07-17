@@ -280,6 +280,9 @@ body {
 		p {
 			padding: 0 2rem 1rem 2rem;
 		}
+		button {
+			margin: 0 2rem 1rem 2rem;
+		}
 	}
 
 	.adv-info-1 {
@@ -334,7 +337,7 @@ body {
 
 @media only screen and (min-width: 992px) {
 	.nav-container {
-		padding: 0.5rem 5%;
+		padding: 0.5rem 1rem 0.5rem 5rem;
 		display: flex;
 		flex-direction: row;
 		align-items: center;
@@ -506,6 +509,10 @@ body {
 }
 
 @media only screen and (min-width: 1200px) {
+	.nav-container {
+		padding: 0.5rem 1rem 0.5rem 9%;
+	}
+
 	.swiper-horizontal > .swiper-pagination-bullets,
 	.swiper-pagination-bullets.swiper-pagination-horizontal,
 	.swiper-pagination-custom,
