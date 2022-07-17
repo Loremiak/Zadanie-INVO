@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Page</title>
+		<link rel="stylesheet" href="./style/style.css" />
+		<script src="https://kit.fontawesome.com/43c5022086.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet" />
+		<link rel="shortcut icon" href="./img/l.png" type="image/x-icon" />
+	</head>
+	<body>
+		<nav class="nav-container">
+			<div class="nav-logo-list">
+				<img src="./img/l.png" alt="Our company logo" class="logo" />
+				<ul class="nav-list">
+					<li><a href="#">Steaks</a></li>
+					<li><a href="#">Burgers</a></li>
+					<li><a href="#">French fries</a></li>
+					<li><a href="#">Drinks</a></li>
+					<li><a href="#">Gdzie dowozimy?</a></li>
+					<li><a href="#">Kontakt</a></li>
+				</ul>
+				<button class="nav-burger" id="hamburger">
+					<i class="fa-solid fa-bars"></i>
+				</button>
+			</div>
+			<div class="nav-info">
+				<button class="shops-btns">Moje konto<img src="./img/mojekonto.svg" alt="" /></button>
+				<button class="shops-btns">Koszyk<img src="./img/koszyk.svg" alt="" /></button>
+				<button class="nav-info-order-btn">Zamów<img src="./img/zamow_ikona.svg" alt="" /></button>
+			</div>
+		</nav>
+
+		<main>
+			<div class="promo-swiper">
+				<div class="promo-container">
+					<h1 class="font-bold"><span class="reversed-color">Rabat 10%</span> na pierwsze zamówienie!</h1>
+					<p>
+						Do 20 stycznia złóż zamówienie na stronie i skorzystaj z
+						<span class="font-bold">promocji -10%.</span> Spiesz się, czas trwania promocji do końca lutego.
+					</p>
+					<button class="order-btn">Zamów online</button>
+				</div>
+				<div class="swiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<img src="./img/Bitmapv.png" alt="Our beautiful steak" />
+						</div>
+						<div class="swiper-slide">
+							<img src="./img/Bitmapv.png" alt="Our tasty steak" />
+						</div>
+						<div class="swiper-slide">
+							<img src="./img/Bitmapv.png" alt="Our pinky steak" />
+						</div>
+					</div>
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+
+			<div class="delivery-container">
+				<img src="./img/Bitmap-4.png" alt="Pyszne.pl icon" />
+				<img src="./img/e.png" alt="DeliGoo icon" />
+				<img src="./img/Bitmap.png" alt="Glovo icon" />
+				<img src="./img/Bitmap-2.png" alt="UberEats icon" />
+				<img src="./img/Bitmap-3.png" alt="Bolt Food icon" />
+			</div>
+
+			<div class="adv-container">
+				<div class="adv-info-1">
+					<div class="adv-info-desc invisible-wall">
+						<h2>Zestaw dla 3 osób</h2>
+						<p>
+							Razem smakuje lepiej! Zamów zestawy obiadowy dla 3 osób już od
+							<span class="reversed-color">39 zł</span>
+						</p>
+						<button class="order-btn">Zamów online</button>
+					</div>
+				</div>
+
+				<div class="adv-info-2">
+					<div class="adv-info-desc invisible-wall">
+						<h2>UberEats</h2>
+						<p>
+							Zamawiaj w aplikacji
+							<span class="reversed-color-red">10% taniej.</span> Pobierz aplikację UberEats już dziś.
+						</p>
+						<div>
+							<img class="shop-icon" src="./img/App_Store_(iOS).svg" alt="App Store icon" />
+							<img class="shop-icon" src="./img/Group 4.svg" alt="Play Store icon" />
+							<img class="shop-icon" src="./img/huawei-app-badge-9757fa 2.svg" alt="Huawei App icon" />
+						</div>
+						<button class="order-btn">Zamów online</button>
+					</div>
+				</div>
+			</div>
+		</main>
+		<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
